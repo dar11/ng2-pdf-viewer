@@ -2,7 +2,7 @@
   "_args": [
     [
       "@angular/compiler-cli@4.4.6",
-      "/Users/vadimdez/Documents/my_dev/ng2-pdf-viewer"
+      "/home/darn/Desktop/Ng2PdfViewer/ng2-pdf-viewer"
     ]
   ],
   "_development": true,
@@ -31,7 +31,7 @@
   ],
   "_resolved": "https://registry.npmjs.org/@angular/compiler-cli/-/compiler-cli-4.4.6.tgz",
   "_spec": "4.4.6",
-  "_where": "/Users/vadimdez/Documents/my_dev/ng2-pdf-viewer",
+  "_where": "/home/darn/Desktop/Ng2PdfViewer/ng2-pdf-viewer",
   "bin": {
     "ngc": "./src/main.js",
     "ng-xi18n": "./src/extract_i18n.js"

@@ -297,7 +297,8 @@ export class PdfViewerComponent implements OnChanges, OnInit {
 
   constructor(private element: ElementRef) {
     if (!isSSR()) {
-      PDFJS.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/${ (PDFJS as any).version }/pdf.worker.min.js`;
+      //PDFJS.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/${ (PDFJS as any).version }/pdf.worker.min.js`;
+      PDFJS.workerSrc = './../lib/pdfjs-dist/build/pdf.worker.min.js';
     }
   }
 
